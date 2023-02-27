@@ -1,0 +1,54 @@
+@font-face{
+    font-family: NotoSerifKhmer-Bold;
+    src: url(./font/NotoSerifKhmer-Bold.ttf);
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+table{
+    width: 80%;
+    height: 30%;
+    margin: auto;
+    background-color: whitesmoke;
+}
+th{
+    width: 120px;
+    height: 60px;
+    background-color: purple;
+    color: white;
+    font-family:"NotoSerifKhmer-Bold",serif;
+    font-size: 20px;
+}
+td{
+    width: 140px;
+    height: 140px;
+    background-color:rgb(234, 230, 230);
+    color: purple;
+    text-align: center;
+    font-size: 20px;
+    font-family:"NotoSerifKhmer-Bold",serif;
+    font-weight: bold;
+}
+.color{
+    background-color: rgb(233, 167, 44);
+    color: white;
+}
+i{
+    color: rgb(12, 12, 151);
+}
+.pic{
+    background-image: url(./image/9QDA.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.pic1{
+    background-image: url(./image/teacher.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+.border{
+    Border: 2px dotted red;
+}
+
